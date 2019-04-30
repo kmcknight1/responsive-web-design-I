@@ -323,6 +323,7 @@ footer {
 }
 
 .services-head-img {
+  width: 100%;
   margin-top: 9.1%;
 }
 
@@ -468,6 +469,10 @@ li {
     margin-left: 3%;
     margin-right: 3%;
   }
+  .services-header-img {
+    width: 100%;
+    object-fit: scale-down;
+  }
 }
 
 @media (max-width: 500px) {
@@ -550,5 +555,13 @@ li {
   }
   .guy {
     order: 1;
+  }
+  .services-header-img {
+    margin-top: 10%;
+    width: 100%;
+    object-fit: scale-down;
+  }
+  .services-text button {
+    margin: 0 auto;
   }
 }
